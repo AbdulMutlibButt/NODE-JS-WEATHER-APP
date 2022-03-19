@@ -81,5 +81,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("server is on top 3000");
+  console.log("server is on top" + port);
 });
