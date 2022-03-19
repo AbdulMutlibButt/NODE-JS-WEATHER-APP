@@ -6,7 +6,7 @@ const geocode = (address, callback) => {
             callback('check the connection', undefined)
         } else if (response.body.message) {
             callback(response.body.message, undefined)
-        } else if (response.body.features.length ===0) {
+        } else if (response.body.features.length === 0) {
             callback('please enter a valid name', undefined)
         } else {
             callback('', {
