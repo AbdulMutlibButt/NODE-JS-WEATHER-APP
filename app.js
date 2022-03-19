@@ -80,6 +80,6 @@ app.get("*", (req, res) => {
   res.send("404 PAGE NOT FOUND");
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("server is on top 3000");
 });
