@@ -5,6 +5,8 @@ const hbs = require("hbs");
 const public = path.join(__dirname, "./public");
 const views = path.join(__dirname, "./partials");
 const api = require("./apis");
+const port = process.env.PORT || 3000;
+
 hbs.registerPartials(views);
 app.use(express.static(public));
 app.set("view engine", "hbs");
@@ -76,6 +78,6 @@ app.get("*", (req, res) => {
   res.send("404 PAGE NOT FOUND");
 });
 
-app.listen(4000, () => {
-  console.log("server is on top 4000");
+app.listen(3000, () => {
+  console.log("server is on top 3000");
 });

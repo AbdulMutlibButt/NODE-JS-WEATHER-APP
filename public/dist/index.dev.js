@@ -18,7 +18,7 @@ var paragraph = document.querySelector("p");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   var location = input.value;
-  fetch("http://localhost:4000/weather?address=" + location).then(function (res) {
+  fetch("/weather?address=" + location).then(function (res) {
     res.json().then(function (data) {
       if (data.error) {
         heading.innerHTML = data.error;

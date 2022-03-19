@@ -1,0 +1,19 @@
+{
+  "name": "web-servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apis.js",
+  "scripts": {
+"start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulMutlibButt/NODE-JS-WEATHER-APP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulMutlibButt/NODE-JS-WEATHER-APP/issues"
+  },
+  "homepage": "https://github.com/AbdulMutlibButt/NODE-JS-WEATHER-APP#readme"
+}
