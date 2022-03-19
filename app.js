@@ -4,7 +4,7 @@ const app = express();
 const hbs = require("hbs");
 const public = path.join(__dirname, "./public");
 const views = path.join(__dirname, "./partials");
-const api = require("../apis");
+const api = require("./apis");
 const port = process.env.PORT || 3000;
 
 // https://mutlib-weather-application.herokuapp.com/
